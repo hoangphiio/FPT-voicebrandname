@@ -1,0 +1,16 @@
+.center{
+    background: #e5e5e5;
+    &-box{
+        &-inner{
+            @include flex();
+            align-items: center;
+            @include max(800px){
+                flex-direction: column-reverse;
+            }
+        }
+    }
+}
+
+.bg-white{
+    background-color: #fff;
+}

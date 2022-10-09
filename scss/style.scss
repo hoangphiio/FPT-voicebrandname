@@ -1,0 +1,22 @@
+@import url("../js/library/aos/aos.css");
+@import url("../js/library/fontawesome/css/all.css");
+@import url("../js/library/hover/hover.css");
+@import url("../js/library/wow/wow.min.js");
+
+// Component
+@import "./component/phone";
+
+// Core
+@import "./core/base";
+@import "./core/mixin";
+@import "./core/reset";
+@import "./core/animation";
+
+// Layout
+@import "./layout/header";
+@import "./layout/slide";
+@import "./layout/content";
+@import "./layout/area";
+@import "./layout/center";
+@import "./layout/footer";
+@import "./layout/table";

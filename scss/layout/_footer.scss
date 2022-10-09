@@ -1,0 +1,44 @@
+.footer {
+  background-color: rgb(41, 62, 80);
+  &-service {
+    @include flex;
+    justify-content: space-between;
+    padding: 20px;
+    @include max(800px) {
+      display: block;
+      text-align: center;
+    }
+    @include max(600px) {
+      font-size: 11px;
+    }
+    &-col {
+      color: rgb(161, 181, 206);
+      @include max(800px) {
+        margin-bottom: 20px;
+      }
+      & .title{
+        font-size: 14px;
+        text-align: unset;
+      }
+    }
+    &-box li {
+      margin: 10px 0;
+    }
+  }
+  &-hotline {
+    color: rgb(161, 181, 206);
+    text-align: center;
+    & span {
+      color: red;
+    }
+    @include max(600px) {
+      font-size: 11px;
+    }
+  }
+}
+
+.call-text {
+  @include max(800px) {
+    display: none;
+  }
+}

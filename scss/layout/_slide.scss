@@ -1,0 +1,16 @@
+.slide {
+  &-box {
+    position: relative;
+    padding-top: 130px;
+    @include max(600px){
+      padding-top: 160px;
+    }
+    &-inner {
+      display: none;
+      & img {
+        height: 350px;
+        object-fit: unset;
+      }
+    }
+  }
+}
